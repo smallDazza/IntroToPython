@@ -34,7 +34,7 @@ a = 10
 #     print("temp is just right")
 
 # Boolean  Operators
-# AND, OR
+# AND, OR, NOT Operands needs to be boolean as well
 
 # a = True
 # b = False
@@ -57,3 +57,53 @@ if age >= 20:
         print("access denied")
 else:
     print("access denied")
+
+# but could do:
+if age >= 18 and has_permission:
+    print("access granted")
+else:
+    print("access denied")
+
+## but:  Ternary Operater
+# "result" if  (condition) else  "result"
+
+print("access granted") if age >= 18 and has_permission else print("acces denied")
+
+# Match-case = control flow similar to switch statements in other languages
+
+day_number = 3
+
+match day_number:
+    case 1:
+        day_name = "monday"
+    case 2:
+        day_name = "tuesday"
+    case 3:
+        day_name = "wednesday"
+    case 4:
+        day_name = "thursday"
+
+print(day_name)
+
+#activity
+
+grade = int(input("Enter your score: "))
+
+if grade > 100:
+    grade = "N/A"
+elif grade >= 90 and grade <= 100:
+    grade = "A"
+elif grade >= 80:
+    grade = "B"
+elif grade >= 70:
+    grade = "C"
+elif grade >= 60:
+    grade = "D"
+else:
+    grade = "F"
+
+print(grade)
+
+
+
+
