@@ -10,4 +10,7 @@
 
 ![flow chart image from class](./flow_chart_example1.png)
 
+## example 2: find the maximum number in a list
+
+![example 2 image from class](./loop_example.png)
 
