@@ -24,23 +24,19 @@
 
 # print("Total length of the list:", len(countries))
 
-print(list(range(5, 0, -1)))
-print(list(range(0, 14, 2)))
+# print(list(range(5, 0, -1)))
+# print(list(range(0, 14, 2)))
 
-### Tuples are immuteable = no changes
+# string_list = input("enter values for list(with spaces): ")
 
-my_tuple = (1,2, "A", "happy")
+# list1 = string_list.split()
+# print(list1)
 
-print(my_tuple[3])
+n = int(input("enter a number for the size of a list: "))
 
-# tuples can be unpacked:
+list2 = list(map(int, input("enter the list numbers: ").strip().split()))[:n]
 
-a,b,c,d = my_tuple
-print(a, d)
-
-#nested tuple
-nested_tuple = (1,2, (3,4), (5,6))
-print(nested_tuple[2][1])
+print(f"the list is: {list2}")
 
 
     
