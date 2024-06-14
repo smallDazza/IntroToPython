@@ -26,18 +26,21 @@
 # area = length * length
 # print(area)  #because = string.
 
-length = int(input("Enter the length you need:"))
-print(length)
-area = length * length
-print(area)
+# length = int(input("Enter the length you need:"))
+# print(length)
+# area = length * length
+# print(area)
 
 #email example
 
-first_name = input("Please enter your first name:")
-last_name = input("Please enter your last name:")
-company_name = input("Please enter your company name:")
+# first_name = input("Please enter your first name:")
+# last_name = input("Please enter your last name:")
+# company_name = input("Please enter your company name:")
 
-print(f"{first_name}.{last_name}@{company_name}.com.au".lower())
-#or
-email = f"{first_name}.{last_name}@{company_name}.com.au".lower()
-print(email)
+# print(f"{first_name}.{last_name}@{company_name}.com.au".lower())
+# #or
+# email = f"{first_name}.{last_name}@{company_name}.com.au".lower()
+# print(email)
+
+txt = "Good Afternoon Reversed"
+print(txt[::-1])
