@@ -44,3 +44,7 @@
 
 txt = "Good Afternoon Reversed"
 print(txt[::-1])
+
+#return just the number as int
+str = " 2 years old"
+print(int(str.replace("years old","")))
