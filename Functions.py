@@ -49,7 +49,7 @@ def even(num):
 def addNum():
     return int(input("Enter your number: "))
 
-def Main():
+def main():
     print("odd or even checker.")
     number = addNum()
     if even(number):
@@ -57,4 +57,4 @@ def Main():
     else:
         print(f"{number} is a odd number")
 
-Main()
+main()
